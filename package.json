@@ -1,0 +1,45 @@
+{
+  "name": "banka",
+  "version": "1.0.0",
+  "description": "A simple bank application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js",
+    "build": "babel index.js -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bbmattieu9/friend.git"
+  },
+  "keywords": [
+    "banka",
+    "andela-prebootcamp",
+    "nodejs",
+    "endpoint"
+  ],
+  "author": "Babatoonday Mattieu",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https://github.com/bbmattieu9/friend#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.3",
+    "babel-register": "^6.26.0",
+    "debug": "^4.1.1",
+    "express": "^4.16.4",
+    "joi": "^14.3.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.3",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "nodemon": "^1.18.10"
+  }
+}
